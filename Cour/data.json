@@ -1,0 +1,23 @@
+{
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.fontSize": 16,
+  "editor.minimap.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "json.maxItemsComputed": 25000,
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 1
+}
+
