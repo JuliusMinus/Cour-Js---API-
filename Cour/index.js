@@ -82,3 +82,51 @@ const fetchData2 = async () => {
 
   executeFonction();
 };
+
+//------------------------------------------------
+
+// le JSON
+
+// méthode json() => méthode qui s'auto-résout en renvoyant le body de la requete.
+
+fetch("data.json")
+  .then((res) => res.json())
+  .then((data) => {
+    // Stringify => convertit en JSON
+    let settings = JSON.stringify(data);
+
+    // Parse => transforme json en object js
+    // console.log(JSON.parse(settings))
+  });
+
+// Web API (contenu dans le navigateur)
+
+// ------Client Storage--------------------
+
+// local Storage
+
+localStorage.data = "je stocke la data";
+//document.body.textContent = localStorage.data;
+localStorage.removeItem("data");
+
+const obj = {
+  name: "denis",
+  age: 22,
+};
+
+// il faut passer des chaines de caractères
+
+localStorage.user = JSON.stringify(obj);
+
+// console.log(JSON.parse(localStorage.user));
+
+// Session Storage
+
+// pareil
+
+sessionStorage.clear();
+
+//----------------------------------
+// cookies
+
+document.cookie = "pseudo=Julius;path=/;max-age=45000;secure;samesite";
