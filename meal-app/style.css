@@ -20,6 +20,12 @@ form {
   border-radius: 0 0 6px 6px;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.054);
 }
+
+label {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: bolder;
+}
 input {
   border: 1px solid rgb(235, 244, 242);
   background: rgb(235, 244, 242);
@@ -51,7 +57,7 @@ input:focus {
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.084);
 }
 h2 {
-  margin: 6px 0;
+  margin: 6px auto;
   color: #16d9e7;
 }
 p {
@@ -65,5 +71,6 @@ img {
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.304);
 }
 li > ul > li {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: left;
 }
